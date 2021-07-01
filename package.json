@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://dashakiri.githib.io/goit-js-hw-10-food-service",
+  "homepage": "https://dashakiri.github.io/goit-js-hw-10-food-service",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-10-food-service/"
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/dashakiri/goit-js-hw-10-food-service.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Darya Kiriienko",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dashakiri/goit-js-hw-10-food-service/issues"

@@ -7,6 +7,14 @@ const Theme = {
   DARK: 'dark-theme',
 };
 
+(function () {
+    if (localStorage.getItem('theme') === null) {
+        localStorage.setItem('theme', Theme.LIGHT);
+        body.classList.add(Theme.LIGHT);
+        return;
+    };
+})();
+
 body.className = localStorage.getItem('theme');
 
 function setTheme(oldThemeName, themeName) {
@@ -21,7 +29,6 @@ function toggleTheme() {
         themeSwitchToggle.checked = true;
     } else {
         setTheme(Theme.DARK, Theme.LIGHT);
-        themeSwitchToggle.checked = false;
     };
 }
 
